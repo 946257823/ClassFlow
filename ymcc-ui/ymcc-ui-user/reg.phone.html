@@ -262,7 +262,7 @@
 
 					let imageCodeKey = sessionStorage.getItem("registerImageCodeKey");
 					if(!imageCodeKey || imageCodeKey === ''){
-						imageCodeKey = this.createUuid();
+						imageCodeKey = this.createUuid(); // 前端生成uuid作为key存到localstorge
 						sessionStorage.setItem("registerImageCodeKey",imageCodeKey);
 					}
 					this.$http.get("/common/verifycode/imageCode/"+imageCodeKey).then(res=>{

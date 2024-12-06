@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="980aef3e-bb02-4ac9-b2ba-c5a4216d9a2b" name="Changes" comment="login VerifyCode">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymcc-ui/ymcc-ui-user/reg.phone.html" beforeDir="false" afterPath="$PROJECT_DIR$/ymcc-ui/ymcc-ui-user/reg.phone.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.40114942",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "http.proxy",
     "spring.configuration.checksum": "9570abff3d1c289761ee1892903beb5b",
     "vue.rearranger.settings.migration": "true"
   },
@@ -260,7 +260,7 @@
       <workItem from="1733315865334" duration="5943000" />
       <workItem from="1733402449597" duration="851000" />
       <workItem from="1733405189430" duration="1502000" />
-      <workItem from="1733462309558" duration="4403000" />
+      <workItem from="1733462309558" duration="6209000" />
     </task>
     <task id="LOCAL-00001" summary="login VerifyCode">
       <option name="closed" value="true" />
@@ -270,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733468147233</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="login VerifyCode">
+      <option name="closed" value="true" />
+      <created>1733469112653</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733469112654</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
