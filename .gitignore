@@ -36,3 +36,4 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/ymcc-ui/ymcc-ui-course/node_modules/
