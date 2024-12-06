@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev #环境
+  cloud:
+    nacos:
+      config:
+        prefix: service-uaa-dev #前缀
+        file-extension: yaml #后缀
+        server-addr: 192.168.159.128:8848 #地址
+        group: DEFAULT_GROUP #分组默认
+        namespace: dev #命名空间
+        shared-configs: #公共配置
+          - data-id: service-shared-dev.yaml

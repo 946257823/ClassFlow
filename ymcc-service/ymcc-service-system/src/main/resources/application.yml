@@ -1,0 +1,26 @@
+#spring:
+#  redis:
+#    database: 0
+#    host: 127.0.0.1
+#    port: 6379
+#    password: 123456
+#    jedis:
+#      pool:
+#        max-wait: 2000ms
+#        min-idle: 8
+#        max-idle: 8
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 192.168.159.128:8848
+#  #配置DataSource
+#  datasource:
+#    username: root
+#    password: 123456
+#    url: jdbc:mysql://192.168.159.128:3306/ymcc-user?serverTimezone=UTC
+#    driver-class-name: com.mysql.jdbc.Driver #驱动
+#    type: com.alibaba.druid.pool.DruidDataSource #使用阿里的连接池
+##配置mybatisPlus
+#mybatis-plus:
+#  mapper-locations: classpath:cn/itsource/ymcc/mapper/*Mapper.xml
+##type-aliases-package: cn.itsource.ymcc.domain

@@ -1,0 +1,13 @@
+#server:
+#  port: 10030
+#spring:
+#  application:
+#    name: service-uaa
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 192.168.159.128:8848
+#  datasource:
+#    username: root
+#    password: 123456
+#    url: jdbc:mysql://192.168.159.128:3306/ymcc-uaa?serverTimezone=UTC

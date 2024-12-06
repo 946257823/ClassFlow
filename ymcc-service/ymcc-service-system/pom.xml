@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>cn.itsource</groupId>
+        <artifactId>ymcc-service</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>ymcc-service-system</artifactId>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!--
+管理中心
+1.基础搭建
+==============================
+省略.. 需要一个web包
+
+2.配置管理
+==============================
+省略..
+
+3.生成代码-代码生成器模块
+==============================
+
+
+4.整合MybatisPlus链接数据库
+==============================
+4.1.导入MybatisPlus依赖 (pojo-common中包含MybatisPlus) ; 驱动包 ； 阿里的连接池
+4.2.yml配置配置DataSource
+4.3.yml配置MybatisPlus ： 别名包
+4.3.启动类：@MapperScan(mapper接口包)
+
+-->
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.9</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.itsource</groupId>
+            <artifactId>ymcc-resources-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.itsource</groupId>
+            <artifactId>ymcc-service-dependency</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.itsource</groupId>
+            <artifactId>ymcc-pojo-system</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.itsource</groupId>
+            <artifactId>ymcc-pojo-uaa</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+
+    </dependencies>
+
+</project>
