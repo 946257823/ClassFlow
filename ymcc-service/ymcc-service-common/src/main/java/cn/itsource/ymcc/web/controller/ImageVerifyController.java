@@ -26,7 +26,6 @@ public class ImageVerifyController {
    */
     @GetMapping(value = "/imageCode/{imageCodeKey}")
     public JSONResult creatImageCode(@PathVariable("imageCodeKey")String imageCodeKey){
-        System.out.println("ssssssssss");
         // 验证码采用base64返回
         String base64Image = verifyCodeService.creatImageCode(imageCodeKey);
         return JSONResult.success(base64Image);

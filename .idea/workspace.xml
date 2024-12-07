@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="980aef3e-bb02-4ac9-b2ba-c5a4216d9a2b" name="Changes" comment="login VerifyCode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymcc-service/ymcc-service-common/src/main/java/cn/itsource/ymcc/service/impl/VerifyCodeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymcc-service/ymcc-service-common/src/main/java/cn/itsource/ymcc/service/impl/VerifyCodeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymcc-service/ymcc-service-common/src/main/java/cn/itsource/ymcc/web/controller/ImageVerifyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymcc-service/ymcc-service-common/src/main/java/cn/itsource/ymcc/web/controller/ImageVerifyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ymcc-ui/ymcc-ui-user/reg.phone.html" beforeDir="false" afterPath="$PROJECT_DIR$/ymcc-ui/ymcc-ui-user/reg.phone.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,6 +225,14 @@
       <option name="workingDirectory" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.GenteratorCode" />
+      <item itemvalue="Spring Boot.CommonStarter" />
+      <item itemvalue="Spring Boot.GatewayApp" />
+      <item itemvalue="Spring Boot.SystemStart" />
+      <item itemvalue="Spring Boot.UAAStarter" />
+      <item itemvalue="Spring Boot.UserStarter" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GenteratorCode" />
@@ -260,7 +270,7 @@
       <workItem from="1733315865334" duration="5943000" />
       <workItem from="1733402449597" duration="851000" />
       <workItem from="1733405189430" duration="1502000" />
-      <workItem from="1733462309558" duration="6209000" />
+      <workItem from="1733462309558" duration="14813000" />
     </task>
     <task id="LOCAL-00001" summary="login VerifyCode">
       <option name="closed" value="true" />
@@ -278,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733469112654</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="login VerifyCode">
+      <option name="closed" value="true" />
+      <created>1733471066329</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733471066330</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

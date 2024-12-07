@@ -18,13 +18,12 @@ import java.util.concurrent.TimeUnit;
 public class VerifyCodeServiceImpl implements IVerifyCodeService {
     /**
      * 创建图片验证码
-     * .注入redis
+     * 0.注入redis
      * 1.判断参数是否合法
      * 2.使用随机数工具生成一个4位数的随机数。
      * 3.往redis里添加前端传过来的imageCodeKey和生成的四位随机数
      * 4.使用验证码工具类将随机数变成图片然后获取到base64编码后的值
-     *
-     * .返回取到base64编码后的值
+     * 5.返回取到base64编码后的值
      * @param imageCodeKey 图片验证码的redisKey
      * @return 返回base64编码后的图片验证码
      */
